@@ -12,7 +12,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # apply template
-wget -O ~/.zshrc https://raw.githubusercontent.com/heyuhang0/hyh-ohmyzsh/master/zshrc.zsh-template
+wget -O ~/.zshrc https://raw.githubusercontent.com/heyuhang0/my-ohmyzsh/master/zshrc.zsh-template
 sed -i "s/@TMP_USERNAME/$USER/g" ~/.zshrc
 
 # start zsh

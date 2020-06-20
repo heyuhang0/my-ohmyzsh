@@ -10,5 +10,7 @@
 ## Install
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/heyuhang0/my-ohmyzsh/install.sh)"
+sudo apt update
+sudo apt install curl, git, 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/heyuhang0/my-ohmyzsh/master/install.sh)"
 ```
