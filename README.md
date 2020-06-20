@@ -11,6 +11,6 @@
 
 ```
 sudo apt update
-sudo apt install curl, git, 
+sudo apt install curl git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/heyuhang0/my-ohmyzsh/master/install.sh)"
 ```
